@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3158035057289891644}
   - component: {fileID: 3158035057289891647}
   - component: {fileID: 3158035057289891619}
+  - component: {fileID: 8838144703871162682}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Ball
+  m_TagString: PickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,3 +109,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8838144703871162682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158035057289891646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544e26413eb32b748a7b0b39c04cead4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BallNumberValue: 0

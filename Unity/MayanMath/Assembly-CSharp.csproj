@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\BallHolder.cs" />
     <Compile Include="Assets\BallValue.cs" />
+    <Compile Include="Assets\EquationManager.cs" />
     <Compile Include="Assets\PickUp.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />

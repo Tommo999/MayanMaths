@@ -6,6 +6,7 @@ public class BallHolder : MonoBehaviour
 {
     public int HolderValue;
     public EquationManager EM;
+    public Renderer DisplayPanel;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,11 +14,7 @@ public class BallHolder : MonoBehaviour
         {
             HolderValue += other.GetComponent<BallValue>().BallNumberValue;
             EM.UpdateValue();
-
-            foreach (Renderer renderer in GetComponentsInChildren<Renderer>())
-            {
-                renderer.material = other.GetComponent<BallValue>().NumberedMaterials[HolderValue];
-            }
+            DisplayPanel.material = other.GetComponent<BallValue>().NumberedMaterials[HolderValue];
         }
     }
 
@@ -27,11 +24,7 @@ public class BallHolder : MonoBehaviour
         {
             HolderValue -= other.GetComponent<BallValue>().BallNumberValue;
             EM.UpdateValue();
-
-            foreach (Renderer renderer in GetComponentsInChildren<Renderer>())
-            {
-                renderer.material = other.GetComponent<BallValue>().NumberedMaterials[HolderValue];
-            }
+            DisplayPanel.material = other.GetComponent<BallValue>().NumberedMaterials[HolderValue];
         }
     }
 }

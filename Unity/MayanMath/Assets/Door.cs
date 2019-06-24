@@ -9,9 +9,16 @@ public class Door : MonoBehaviour
     public int Answer;
     bool LevelComplete;
 
+    public GameObject DisplayPanel;
+    public Material[] NumberedMaterials = new Material[9];
+
     private void Start()
     {
         DoorAnim = GetComponent<Animator>();
+        if(Answer >= 0 && Answer < NumberedMaterials.Length)
+        DisplayPanel.GetComponent<Renderer>().material = NumberedMaterials[Answer];
+
+        Debug.Log(NumberedMaterials.Length);
     }
 
     void Update()

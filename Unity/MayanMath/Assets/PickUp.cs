@@ -5,6 +5,7 @@ using UnityEngine;
 public class PickUp : MonoBehaviour
 {
     public Transform Hand;
+    public float ThrowPower;
 
     [SerializeField] GameObject CurrentObject;
     [SerializeField] bool HoldingObject;
@@ -26,6 +27,18 @@ public class PickUp : MonoBehaviour
                 CurrentObject.GetComponent<Rigidbody>().isKinematic = false;
                 CurrentObject.transform.SetParent(null);
                 CurrentObject.transform.SetPositionAndRotation(transform.position, transform.rotation);
+            }
+        }
+        if (CurrentObject != null && (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(1)))
+        {
+            if (HoldingObject)
+            {
+                HoldingObject = false;
+                CurrentObject.GetComponent<Rigidbody>().isKinematic = false;
+                CurrentObject.transform.SetParent(null);
+                CurrentObject.transform.SetPositionAndRotation(transform.position, transform.rotation);
+
+                CurrentObject.GetComponent<Rigidbody>().AddForce(transform.forward * ThrowPower);
             }
         }
     }

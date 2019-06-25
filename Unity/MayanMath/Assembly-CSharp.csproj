@@ -66,6 +66,9 @@
     <Compile Include="Assets\BallValue.cs" />
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\EquationManager.cs" />
+    <Compile Include="Assets\KeyBall.cs" />
+    <Compile Include="Assets\KeyDoor.cs" />
+    <Compile Include="Assets\KeyHolder.cs" />
     <Compile Include="Assets\PickUp.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />

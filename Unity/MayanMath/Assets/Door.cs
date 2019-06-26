@@ -7,7 +7,7 @@ public class Door : MonoBehaviour
     Animator DoorAnim;
     public EquationManager EM;
     public int Answer;
-    bool LevelComplete;
+    bool AnswerMet;
 
     public GameObject DisplayPanel;
     public Material[] NumberedMaterials = new Material[9];
@@ -17,21 +17,19 @@ public class Door : MonoBehaviour
         DoorAnim = GetComponent<Animator>();
         if(Answer >= 0 && Answer < NumberedMaterials.Length)
         DisplayPanel.GetComponent<Renderer>().material = NumberedMaterials[Answer];
-
-        Debug.Log(NumberedMaterials.Length);
     }
 
     void Update()
     {
         if(Answer == EM.Result)
         {
-            LevelComplete = true;
+            AnswerMet = true;
         }
         else
         {
-            LevelComplete = false;
+            AnswerMet = false;
         }
 
-        DoorAnim.SetBool("LevelComplete", LevelComplete);
+        DoorAnim.SetBool("LevelComplete", AnswerMet);
     }
 }

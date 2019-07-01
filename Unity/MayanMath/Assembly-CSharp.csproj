@@ -72,6 +72,8 @@
     <Compile Include="Assets\_Scripts\PickUp.cs" />
     <Compile Include="Assets\_Scripts\PressureScript.cs" />
     <Compile Include="Assets\_Scripts\Trampoline.cs" />
+    <Compile Include="Assets\EndLevel.cs" />
+    <Compile Include="Assets\PlayerDetector.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />

@@ -250,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 3346960408337633461, guid: 9257cb4610c86e04c8a41a9bd2e17990,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3346960408337633461, guid: 9257cb4610c86e04c8a41a9bd2e17990,
         type: 3}
@@ -714,7 +714,7 @@ PrefabInstance:
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
@@ -990,6 +990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lantern
       objectReference: {fileID: 0}
+    - target: {fileID: 7533977301899618327, guid: ae55a20e1121d52488c36bdb02f64bdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1028,7 +1033,7 @@ PrefabInstance:
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
@@ -1134,6 +1139,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lantern (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7533977301899618327, guid: ae55a20e1121d52488c36bdb02f64bdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1172,7 +1182,7 @@ PrefabInstance:
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
@@ -1730,7 +1740,7 @@ PrefabInstance:
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
@@ -2687,7 +2697,7 @@ PrefabInstance:
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
@@ -3655,7 +3665,7 @@ PrefabInstance:
     - target: {fileID: 3346960408337633461, guid: 9257cb4610c86e04c8a41a9bd2e17990,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3346960408337633461, guid: 9257cb4610c86e04c8a41a9bd2e17990,
         type: 3}
@@ -3897,7 +3907,7 @@ PrefabInstance:
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
@@ -4292,6 +4302,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lantern (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7533977301899618327, guid: ae55a20e1121d52488c36bdb02f64bdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4330,7 +4345,7 @@ PrefabInstance:
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
@@ -4942,6 +4957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lantern (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7533977301899618327, guid: ae55a20e1121d52488c36bdb02f64bdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5416,6 +5436,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Lantern (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7533977301899618327, guid: ae55a20e1121d52488c36bdb02f64bdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7533977301899618326, guid: ae55a20e1121d52488c36bdb02f64bdc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5623,7 +5648,7 @@ PrefabInstance:
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
@@ -5910,7 +5935,7 @@ Transform:
   - {fileID: 508621487}
   - {fileID: 2009827866}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1837587905
 PrefabInstance:
@@ -6771,7 +6796,7 @@ PrefabInstance:
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3158035057289891618, guid: 90639819853a7594c8edc9da372e7c25,
         type: 3}
@@ -6797,15 +6822,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -2289544604124388556, guid: 366bc26c2ee78a644a0fd4f9b2189523,
-        type: 3}
-      propertyPath: LevelName
-      value: Test Scene
-      objectReference: {fileID: 0}
     - target: {fileID: 1194908108734822760, guid: 366bc26c2ee78a644a0fd4f9b2189523,
         type: 3}
       propertyPath: m_Name
       value: Level Loader
+      objectReference: {fileID: 0}
+    - target: {fileID: -2289544604124388556, guid: 366bc26c2ee78a644a0fd4f9b2189523,
+        type: 3}
+      propertyPath: LevelName
+      value: Test Scene
       objectReference: {fileID: 0}
     - target: {fileID: 1194908108734822761, guid: 366bc26c2ee78a644a0fd4f9b2189523,
         type: 3}

@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hand: {fileID: 366103777}
-  ThrowPower: 5
+  ThrowPower: 50
   CurrentObject: {fileID: 0}
   HoldingObject: 0
 --- !u!1 &366103776

@@ -485,12 +485,12 @@ PrefabInstance:
     - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
         type: 3}
       propertyPath: m_Intensity
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
         type: 3}
       propertyPath: m_Range
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
         type: 3}
@@ -521,6 +521,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 1.0829414e+24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
+        type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
+        type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cd3701301392a044a2944f568b5d7d1, type: 3}

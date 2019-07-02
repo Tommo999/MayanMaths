@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class KeyDoor : MonoBehaviour
 {
-    public KeyHolder HolderOfKeys;
-    bool KeyEntered;
+    public KeyHolder[] HolderOfKeys;
+    bool KeysEntered;
     Animator DoorAnim;
 
     private void Start()
@@ -15,6 +15,18 @@ public class KeyDoor : MonoBehaviour
 
     void FixedUpdate()
     {
-        DoorAnim.SetBool("LevelComplete", HolderOfKeys.Keytected);
+        foreach(KeyHolder KH in HolderOfKeys)
+        {
+            if(KH.Keytected)
+            {
+                KeysEntered = true;
+            }
+            else
+            {
+                KeysEntered = false;
+                break;
+            }
+        }
+        DoorAnim.SetBool("LevelComplete", KeysEntered);
     }
 }

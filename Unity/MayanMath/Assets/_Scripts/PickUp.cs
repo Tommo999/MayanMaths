@@ -12,7 +12,7 @@ public class PickUp : MonoBehaviour
 
     void Update()
     {
-        if (CurrentObject != null && (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0)))
+        if (CurrentObject != null && (Input.GetButtonDown("PickUp")))
         {
             if (!HoldingObject)
             {
@@ -29,7 +29,7 @@ public class PickUp : MonoBehaviour
                 CurrentObject.transform.SetPositionAndRotation(transform.position, transform.rotation);
             }
         }
-        if (CurrentObject != null && (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(1)))
+        if (CurrentObject != null && (Input.GetButtonDown("Throw")))
         {
             if (HoldingObject)
             {

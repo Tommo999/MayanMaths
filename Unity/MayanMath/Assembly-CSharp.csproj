@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\BallHolder.cs" />
     <Compile Include="Assets\BallValue.cs" />
+    <Compile Include="Assets\Disco.cs" />
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\EquationManager.cs" />
     <Compile Include="Assets\KeyBall.cs" />

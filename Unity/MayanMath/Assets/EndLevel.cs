@@ -11,12 +11,21 @@ public class EndLevel : MonoBehaviour
     {
         if(Other.tag == "Player")
         {
-            LoadLevel();    
+            LoadLevel();
         }
     }
 
     public void LoadLevel()
     {
+        if (Time.timeSinceLevelLoad < 
+            PlayerPrefs.GetFloat($"Record_{SceneManager.GetActiveScene().name}") ||
+            PlayerPrefs.GetFloat($"Record_{SceneManager.GetActiveScene().name}") == 0)
+        {
+            PlayerPrefs.SetFloat($"Record_{SceneManager.GetActiveScene().name}",
+            Time.timeSinceLevelLoad);
+            Debug.Log($"Record_{SceneManager.GetActiveScene().name}");
+            Debug.Log(Time.timeSinceLevelLoad);
+        }
         SceneManager.LoadScene(LevelName);
     }
 }

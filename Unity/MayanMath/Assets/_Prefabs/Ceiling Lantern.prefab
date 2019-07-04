@@ -485,12 +485,12 @@ PrefabInstance:
     - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
         type: 3}
       propertyPath: m_Range
-      value: 40
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1557923418896192155, guid: 2cd3701301392a044a2944f568b5d7d1,
         type: 3}

@@ -72,7 +72,6 @@
     <Compile Include="Assets\_Scripts\PickUp.cs" />
     <Compile Include="Assets\_Scripts\PressureScript.cs" />
     <Compile Include="Assets\_Scripts\Trampoline.cs" />
-    <Compile Include="Assets\Disco.cs" />
     <Compile Include="Assets\EndLevel.cs" />
     <Compile Include="Assets\KillZone.cs" />
     <Compile Include="Assets\MenuManager.cs" />
